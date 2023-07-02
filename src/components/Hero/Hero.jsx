@@ -2,7 +2,7 @@ import heroImage from '../../assets/images/shop-hero-1-product-slide-1.png'
 function Hero() {
     return (
         <div
-            className="bg-cover bg-no-repeat text-[#fff] py-3 md:py-36 pl-3 md:pl-48"
+            className="bg-cover bg-no-repeat bg-center text-[#fff] py-3 md:py-36 pl-3 md:pl-48 mb-24"
             style={{ backgroundImage: `url(${heroImage})`}}
         >
             <h5 className='text-3xl font-medium capitalize leading-9 mb-10'>T-shirt / Tops</h5>
