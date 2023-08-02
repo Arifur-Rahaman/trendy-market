@@ -5,11 +5,11 @@ function Header() {
     const buttonClasses = "bg-[#F6F6F6] p-3 rounded-lg"
     return (
         <header>
-            <div className="container mx-auto flex items-center justify-between py-8">
-                <div className="font-medium text-3xl">
+            <div className="container mx-auto flex items-center justify-between px-2 md:px-0 py-3 md:py-8">
+                <div className="font-medium text-xl md:text-3xl">
                     TrendyMarket
                 </div>
-                <nav className="hidden md:block">
+                <nav className="hidden xl:block">
                     <ul className="flex items-center gap-10 text-xl text-[#807D7E] font-medium cursor-pointer">
                         {
                             navList.map((list, i) => (

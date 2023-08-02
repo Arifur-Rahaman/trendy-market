@@ -13,13 +13,13 @@ function Deals() {
         {
             image: deal2,
             subtitle: 'Beyoung Presents',
-            title: `Breezy Summer\nStyle`,
+            title: `Breezy Summer`,
             discount: 'UPTO 50% OFF',
             buttonText: 'Explore Items',
         }
     ]
   return (
-    <div className="container mx-auto flex gap-8 mb-24">
+    <div className="container mx-auto flex flex-col md:flex-row gap-4 md:gap-8 mb-6 md:mb-24 px-1 md:px-0">
         {
             deals.map(deal=>(
                 <DealItem key={deal.image} deal={deal}/>
