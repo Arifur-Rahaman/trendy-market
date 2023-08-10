@@ -1,3 +1,5 @@
+import logo from '../../assets/images/logo.svg'
+
 function Header() {
     const navList = [
         { title: 'Shop' }, { title: 'Men' }, { title: 'Women' }, { title: 'Combos' }, { title: 'Joggers' }
@@ -7,7 +9,7 @@ function Header() {
         <header>
             <div className="container mx-auto flex items-center justify-between px-2 md:px-0 py-3 md:py-8">
                 <div className="font-medium text-xl md:text-3xl">
-                    TrendyMarket
+                    Trendy Market
                 </div>
                 <nav className="hidden xl:block">
                     <ul className="flex items-center gap-10 text-xl text-[#807D7E] font-medium cursor-pointer">
