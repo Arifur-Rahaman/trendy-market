@@ -20,6 +20,7 @@ import womanCategory1 from '../../assets/images/category_women/women_category1.p
 import womanCategory2 from '../../assets/images/category_women/women_category2.png'
 import womanCategory3 from '../../assets/images/category_women/women_category3.png'
 import womanCategory4 from '../../assets/images/category_women/women_category4.png'
+import TopBrands from '../../components/TopBrands/TopBrands';
 const mensCategory = [
     {title: 'Shirts', image:category1},
     {title: 'Printed T-Shirts', image:category2},
@@ -48,6 +49,7 @@ const Home = () => {
             <Promotion />
             <Categories title={'Categories For Men'} data={mensCategory} />
             <Categories title={'Categories For Women'} data={womenCategory} />
+            <TopBrands/>
         </>
     );
 };
