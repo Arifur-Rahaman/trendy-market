@@ -3,7 +3,7 @@ import promotion1 from '../../assets/images/promotion1.png'
 import promotion2 from '../../assets/images/promotion2.png'
 const Promotion = () => {
     return (
-        <div className='container mx-auto flex text-white'>
+        <div className='container mx-auto mb-24 flex text-white'>
             <div
                 style={{ backgroundImage: `url(${promotion1})` }}
                 className='bg-cover bg-no-repeat bg-center py-44 px-20 basis-full rounded-l-xl'

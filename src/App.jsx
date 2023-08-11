@@ -1,4 +1,5 @@
 import './App.css'
+import Categories from './components/Categories/Categories'
 import Deals from './components/Deals/Deals'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
@@ -15,6 +16,7 @@ function App() {
       <NewArrival/>
       <SavingZone/>
       <Promotion/>
+      <Categories title={'Categories For Men'}/>
     </>
   )
 }
