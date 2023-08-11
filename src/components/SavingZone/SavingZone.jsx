@@ -22,7 +22,7 @@ const SavingZone = () => {
                         <p className='text-lg font-bold mb-7'>UPTO 50% OFF</p>
                         <div className='mb-10 w-32 flex justify-center'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 23 26" fill="none">
-                                <path d="M11.5678 1.28613L11.5678 23.8893M22 15.1958L12.7972 24.3985C12.1182 25.0775 11.0173 25.0775 10.3383 24.3985L1.13557 15.1958" stroke="white" stroke-width="2" stroke-linecap="round" />
+                                <path d="M11.5678 1.28613L11.5678 23.8893M22 15.1958L12.7972 24.3985C12.1182 25.0775 11.0173 25.0775 10.3383 24.3985L1.13557 15.1958" stroke="white" strokeWidth="2" strokeLinecap="round" />
                             </svg>
                         </div>
                         <a className='text-xs font-medium px-8 py-2 rounded border-2 border-white inline-block uppercase'>Shop Now</a>
@@ -39,7 +39,7 @@ const SavingZone = () => {
                         <p className='text-lg font-bold mb-7'>UPTO 40% OFF</p>
                         <div className='mb-10 flex justify-center'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 23 26" fill="none">
-                                <path d="M11.5678 1.28613L11.5678 23.8893M22 15.1958L12.7972 24.3985C12.1182 25.0775 11.0173 25.0775 10.3383 24.3985L1.13557 15.1958" stroke="white" stroke-width="2" stroke-linecap="round" />
+                                <path d="M11.5678 1.28613L11.5678 23.8893M22 15.1958L12.7972 24.3985C12.1182 25.0775 11.0173 25.0775 10.3383 24.3985L1.13557 15.1958" stroke="white" strokeWidth="2" strokeLinecap="round" />
                             </svg>
                         </div>
                         <div className='flex justify-end'>
@@ -57,7 +57,7 @@ const SavingZone = () => {
                         <p className='text-lg font-bold mb-7'>UPTO 50% OFF</p>
                         <div className='mb-9 ml-10'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 23 26" fill="none">
-                                <path d="M11.5678 1.28613L11.5678 23.8893M22 15.1958L12.7972 24.3985C12.1182 25.0775 11.0173 25.0775 10.3383 24.3985L1.13557 15.1958" stroke="white" stroke-width="2" stroke-linecap="round" />
+                                <path d="M11.5678 1.28613L11.5678 23.8893M22 15.1958L12.7972 24.3985C12.1182 25.0775 11.0173 25.0775 10.3383 24.3985L1.13557 15.1958" stroke="white" strokeWidth="2" strokeLinecap="round" />
                             </svg>
                         </div>
                         <a className='text-xs font-medium px-8 py-2 rounded border-2 border-[#3C4242] inline-block uppercase'>Shop Now</a>
@@ -74,7 +74,7 @@ const SavingZone = () => {
                         <p className='text-xl font-bold mb-8'>FLAT 60% OFF</p>
                         <div className='mb-11 flex justify-center'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="27" height="31" viewBox="0 0 27 31" fill="none">
-                                <path d="M13.6864 2.04785L13.6864 27.88M25.6089 17.9446L15.0914 28.462C14.3154 29.238 13.0573 29.238 12.2813 28.462L1.76383 17.9446" stroke="#3C4242" stroke-width="2.28571" stroke-linecap="round" />
+                                <path d="M13.6864 2.04785L13.6864 27.88M25.6089 17.9446L15.0914 28.462C14.3154 29.238 13.0573 29.238 12.2813 28.462L1.76383 17.9446" stroke="#3C4242" strokeWidth="2.28571" strokeLinecap="round" />
                             </svg>
                         </div>
                         <button className='text-xs font-medium px-8 py-2 rounded border-2 border-[#3C4242] inline-block uppercase'>SHOP NOW</button>
@@ -90,7 +90,7 @@ const SavingZone = () => {
                         <p className='text-xl font-bold mb-8'>FLAT 60% OFF</p>
                         <div className='mb-11 flex justify-center'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="27" height="31" viewBox="0 0 27 31" fill="none">
-                                <path d="M13.6864 2.04785L13.6864 27.88M25.6089 17.9446L15.0914 28.462C14.3154 29.238 13.0573 29.238 12.2813 28.462L1.76383 17.9446" stroke="#3C4242" stroke-width="2.28571" stroke-linecap="round" />
+                                <path d="M13.6864 2.04785L13.6864 27.88M25.6089 17.9446L15.0914 28.462C14.3154 29.238 13.0573 29.238 12.2813 28.462L1.76383 17.9446" stroke="#3C4242" strokeWidth="2.28571" strokeLinecap="round" />
                             </svg>
                         </div>
                         <button className='text-xs font-medium px-8 py-2 rounded border-2 border-[#3C4242] inline-block uppercase'>SHOP NOW</button>

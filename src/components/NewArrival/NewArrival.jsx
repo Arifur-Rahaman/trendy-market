@@ -28,8 +28,8 @@ function NewArrival() {
             <TitleSectionHome text={'New Arrival'}/>
             <div className='flex justify-between items-center w-full'>
                 {
-                    data.map(data=>(
-                        <div>
+                    data.map((data, i)=>(
+                        <div key={i}>
                             <img className='mb-4' src={data?.image}/>
                             <h6 className='text-xl font-bold text-[#3C4242]'>{data.text}</h6>
                         </div>
