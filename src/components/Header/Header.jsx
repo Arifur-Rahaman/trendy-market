@@ -1,12 +1,25 @@
-import logo from '../../assets/images/logo.svg'
+import { useState } from "react"
 
 function Header() {
+    const [isScrolled, setIsScrolled] = useState(false)
+
+
+    const handleScroll = ()=>{
+        if(window.scrollY >=80){
+            setIsScrolled(true)
+        }
+        else{
+            setIsScrolled(false)
+        }
+    }
+
+    window.addEventListener('scroll', handleScroll)
     const navList = [
         { title: 'Shop' }, { title: 'Men' }, { title: 'Women' }, { title: 'Combos' }, { title: 'Joggers' }
     ]
     const buttonClasses = "bg-[#F6F6F6] p-3 rounded-lg"
     return (
-        <header>
+        <header className={isScrolled? 'sticky top-0 bg-white shadow-md': 'sticky top-0 bg-white'}>
             <div className="container mx-auto flex items-center justify-between px-2 md:px-0 py-3 md:py-8">
                 <div className="font-medium text-xl md:text-3xl">
                     Trendy Market
