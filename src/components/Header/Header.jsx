@@ -19,7 +19,7 @@ function Header() {
     ]
     const buttonClasses = "bg-[#F6F6F6] p-3 rounded-lg"
     return (
-        <header className={isScrolled? 'sticky top-0 bg-white shadow-md': 'sticky top-0 bg-white'}>
+        <header className={isScrolled? 'sticky top-0 bg-white shadow-md z-10': 'sticky top-0 bg-white'}>
             <div className="container mx-auto flex items-center justify-between px-2 md:px-0 py-3 md:py-8">
                 <div className="font-medium text-xl md:text-3xl">
                     Trendy Market
