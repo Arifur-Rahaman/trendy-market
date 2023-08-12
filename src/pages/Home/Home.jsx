@@ -21,6 +21,7 @@ import womanCategory2 from '../../assets/images/category_women/women_category2.p
 import womanCategory3 from '../../assets/images/category_women/women_category3.png'
 import womanCategory4 from '../../assets/images/category_women/women_category4.png'
 import TopBrands from '../../components/TopBrands/TopBrands';
+import Limelight from '../../components/Limelight/Limelight';
 const mensCategory = [
     {title: 'Shirts', image:category1},
     {title: 'Printed T-Shirts', image:category2},
@@ -50,6 +51,7 @@ const Home = () => {
             <Categories title={'Categories For Men'} data={mensCategory} />
             <Categories title={'Categories For Women'} data={womenCategory} />
             <TopBrands/>
+            <Limelight/>
         </>
     );
 };
